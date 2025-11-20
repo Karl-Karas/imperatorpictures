@@ -1,0 +1,76 @@
+baseURL = "https://karl-karas.github.io/imperatorpictures/"
+languageCode = "fr-fr"
+title = "Imperator Pictures"
+theme = "ananke"
+
+[params]
+  subtitle = "Une association artistique de création cinématographique"
+
+[cascade]
+  featured_image = 'images/banner.jpg'
+SectionPagesMenu = "main"
+Paginate = 3 
+enableRobotsTXT = true
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.fr]
+    title = "Imperator Pictures"
+    weight = 1
+    contentDir = "content/fr"
+    [[languages.fr.menu.main]]
+      url = "/fr/"
+      identifier = "accueil"
+      name = "Accueil"
+      weight = 1
+    [[languages.fr.menu.main]]
+      identifier = "apropos"
+      name = "À propos"
+      url = "/fr/a-propos/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      identifier = "journalfr"
+      name = "Journal"
+      url = "/fr/journal/"
+      weight = 3
+    [[languages.fr.menu.main]]
+      identifier = "filmsfr"
+      name = "Films"
+      url = "/fr/films/"
+      weight = 4
+    [[languages.fr.menu.main]]
+      identifier = "productionfr"
+      name = "Production"
+      url = "/fr/production/"
+      weight = 5
+
+  [languages.en]
+    title = "Imperator Pictures"
+    weight = 2
+    contentDir = "content/en"
+    [[languages.en.menu.main]]
+      identifier = "home"
+      name = "Main"
+      url = "/en/"
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "journalen"
+      name = "Journal"
+      url = "/en/journal/"
+      weight = 3
+    [[languages.en.menu.main]]
+      identifier = "filmsen"
+      name = "Films"
+      url = "/en/films/"
+      weight = 4
+    [[languages.en.menu.main]]
+      identifier = "productionen"
+      name = "Production"
+      url = "/en/production/"
+      weight = 5
+
