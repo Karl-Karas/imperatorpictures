@@ -5,11 +5,20 @@ languageCode = "fr-fr"
 title = "Imperator Pictures"
 theme = "ananke"
 
+environment = "production"
+
+[imaging]
+  resampleFilter = "catmullrom"
+  quality = 75
+  anchor = "smart"
+
 [params]
+  env = "production"
   subtitle = "Une association artistique de création cinématographique"
 
 [cascade]
   featured_image = 'images/banner.jpg'
+
 SectionPagesMenu = "main"
 Paginate = 3 
 enableRobotsTXT = true
