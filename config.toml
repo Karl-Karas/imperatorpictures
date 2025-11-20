@@ -1,3 +1,5 @@
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = false
 baseURL = "https://karl-karas.github.io/imperatorpictures/"
 languageCode = "fr-fr"
 title = "Imperator Pictures"
@@ -11,66 +13,76 @@ theme = "ananke"
 SectionPagesMenu = "main"
 Paginate = 3 
 enableRobotsTXT = true
-defaultContentLanguage = 'fr'
-defaultContentLanguageInSubdir = true
 [languages]
   [languages.fr]
-    title = "Imperator Pictures"
+    languageName = "Français"
     weight = 1
     contentDir = "content/fr"
+
+    # Menu français
     [[languages.fr.menu.main]]
-      url = "/fr/"
-      identifier = "accueil"
       name = "Accueil"
+      pageRef = "/"
       weight = 1
+      identifier = "home"
+
     [[languages.fr.menu.main]]
-      identifier = "apropos"
       name = "À propos"
-      url = "/fr/a-propos/"
-      weight = 2
+      pageRef = "a-propos"
+      weight = 10
+      identifier = "about"
+
     [[languages.fr.menu.main]]
-      identifier = "journalfr"
-      name = "Journal"
-      url = "/fr/journal/"
-      weight = 3
-    [[languages.fr.menu.main]]
-      identifier = "filmsfr"
       name = "Films"
-      url = "/fr/films/"
-      weight = 4
+      pageRef = "films"
+      weight = 20
+      identifier = "films"
+
     [[languages.fr.menu.main]]
-      identifier = "productionfr"
       name = "Production"
-      url = "/fr/production/"
-      weight = 5
+      pageRef = "production"
+      weight = 30
+      identifier = "production"
+
+    [[languages.fr.menu.main]]
+      name = "Journal"
+      pageRef = "journal"
+      weight = 40
+      identifier = "journal"
 
   [languages.en]
-    title = "Imperator Pictures"
+    languageName = "English"
     weight = 2
     contentDir = "content/en"
+
+    # Menu anglais
     [[languages.en.menu.main]]
-      identifier = "home"
-      name = "Main"
-      url = "/en/"
+      name = "Home"
+      pageRef = "/"
       weight = 1
+      identifier = "home"
+
     [[languages.en.menu.main]]
-      identifier = "about"
       name = "About"
-      url = "/about/"
-      weight = 2
+      pageRef = "a-propos"
+      weight = 10
+      identifier = "about"
+
     [[languages.en.menu.main]]
-      identifier = "journalen"
-      name = "Journal"
-      url = "/journal/"
-      weight = 3
-    [[languages.en.menu.main]]
-      identifier = "filmsen"
       name = "Films"
-      url = "/films/"
-      weight = 4
+      pageRef = "films"
+      weight = 20
+      identifier = "films"
+
     [[languages.en.menu.main]]
-      identifier = "productionen"
       name = "Production"
-      url = "/production/"
-      weight = 5
+      pageRef = "production"
+      weight = 30
+      identifier = "production"
+
+    [[languages.en.menu.main]]
+      name = "Journal"
+      pageRef = "journal"
+      weight = 40
+      identifier = "journal"
 
