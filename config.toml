@@ -56,21 +56,21 @@ defaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About"
-      url = "/en/about/"
+      url = "/about/"
       weight = 2
     [[languages.en.menu.main]]
       identifier = "journalen"
       name = "Journal"
-      url = "/en/journal/"
+      url = "/journal/"
       weight = 3
     [[languages.en.menu.main]]
       identifier = "filmsen"
       name = "Films"
-      url = "/en/films/"
+      url = "/films/"
       weight = 4
     [[languages.en.menu.main]]
       identifier = "productionen"
       name = "Production"
-      url = "/en/production/"
+      url = "/production/"
       weight = 5
 
